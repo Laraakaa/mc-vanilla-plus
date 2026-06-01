@@ -1,0 +1,13 @@
+name = "Vanilla+"
+author = "Laraka"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a9b8854f77168e17a3984e2cf73a89bda11764ac1507bc05e7599e6d87f486d6"
+
+[versions]
+fabric = "0.19.2"
+minecraft = "26.1.2"
