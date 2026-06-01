@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Justfile"
+hash = "74e3c14eb0e0f4b561a3cd38ace14358fa3ce660e1bfa7b5975aca521512504c"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "b433a4165d29a9b1bb4d9014873b2b2a3f6fb63b7c349ff8e893099c7bb9f1e7"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "34fc717398de751ce39263c5c9232d97ca45c4959cf83bc069d78c2ed137d401"
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "8623809fe6a60aa6b9ae6358bf2796742847e8641e1cc27bc3886484125ed6be"
 metafile = true
@@ -39,3 +51,8 @@ metafile = true
 file = "mods/sodium.pw.toml"
 hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "836598104840b1a1802b6b3f04b228a3e9aa1c9ec74ef716e1429e6f36fb5f19"
+preserve = true
