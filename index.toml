@@ -2,57 +2,81 @@ hash-format = "sha256"
 
 [[files]]
 file = "Justfile"
-hash = "74e3c14eb0e0f4b561a3cd38ace14358fa3ce660e1bfa7b5975aca521512504c"
+hash = "6403a5bd3eb829e5240fa06504f52ac739400b118746047e92cda0c5dc7814aa"
+
+[[files]]
+file = "config/DistantHorizons.toml"
+hash = "2a5615d924dec454e35080ea7e83ffcfa05faaac31a53c0dbad2a8f47f60aa04"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "b433a4165d29a9b1bb4d9014873b2b2a3f6fb63b7c349ff8e893099c7bb9f1e7"
+hash = "91e207be7aaa94f534123be75697aea1544e46630a5795bfcacf7b4ffadaf7c7"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "34fc717398de751ce39263c5c9232d97ca45c4959cf83bc069d78c2ed137d401"
+hash = "b8c4dbc7853c846cc7bcd441baaa02d60c7ab16ed4c5814107a62b7555c25f66"
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "adbe039e36d71ac5e8986288240d9a7e13720a108a70ffb0bb989d7a9a7ca30b"
+metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8623809fe6a60aa6b9ae6358bf2796742847e8641e1cc27bc3886484125ed6be"
+hash = "1774ae01ebdad5b5769a410c071b5efbcb5ae9a71fbc32509d3997819f8b8d5d"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+hash = "fc6ed047d2ef8a289ff2f85e1852d403e36260dd0ef37fac7266071288e06b70"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "51fa2c64e9cf2d5558a2f1e575960a0a9f9f27f73486d0d679c2bc695eb11026"
+hash = "bc13079f8f323741d97ee8eedd24b2944b1caa6ef2a2fd4a6162cba270e9f866"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "f70d8ec7c871ad284b1e155c7a8a8461edc00c7b1ddecec0c10f212f77911376"
+hash = "5d64bef22f5b1829cd702f197dbbc69309f2161a288b8bfe79a5169a074a2131"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "92a607d137ec703843418c3fb93be516ff19c47a225a248006d23bd8d138701a"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "42583eed7ccb599f10285e721c25bf3c8858ef7e0eb8e22aa8bf64a08d98a280"
+hash = "4979560f947600c6a5d8e2d77cfa191baa9f79b36ae001711325aa102fb4dce1"
 metafile = true
 
 [[files]]
 file = "mods/placeholder-api.pw.toml"
-hash = "d20369e5848ca31ecbb49bae22e953439173bd4617ca239b23335366b2a6a0e9"
+hash = "b052d07eb086aa31e580e7d1486ed06cca76842ebea9e149c7bda7e98d35f456"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "546965f1ab52fc464c51e36c52305fef231837c22454d22447b8423e379502cd"
+hash = "9e430a96fd19ad02fcff9d15f63eeb4e482db4d55c970157d7b85ec2413cd3e5"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
+hash = "d6a9a5fd63b74032e640821e5624c20596ccf9566af76813aa1972b162781da4"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "9319c3c28fcf1d824c7ac999851cdbcf3be9e9a1fe289e854cbebc15dc63b899"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "5d451fb0bab301ca1f7f99ae698e13b8c6827dda54704204cfe0e63b420e9cfa"
 metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "836598104840b1a1802b6b3f04b228a3e9aa1c9ec74ef716e1429e6f36fb5f19"
+hash = "0d3d71ab7af140dd22d19faf124e7f93330b0082cea83ee436a833f16c5169de"
 preserve = true

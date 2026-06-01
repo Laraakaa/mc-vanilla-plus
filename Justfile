@@ -1,5 +1,7 @@
 # Run `just` or `just --list` to see commands.
 
+set shell := ["pwsh", "-NoProfile", "-Command"]
+
 # Show available recipes
 default:
     @just --list
@@ -26,11 +28,14 @@ update:
 
 # Build the distributable .mrpack into ./dist
 export:
-    mkdir -p dist
+    New-Item -ItemType Directory -Force -Path dist | Out-Null
     packwiz mr export -o "dist/pack.mrpack"
-    @echo "Built dist/pack.mrpack — import this in Prism."
+    Write-Host "Built dist/pack.mrpack — import this in Prism."
 
 # Sanity check: refresh + list what's tracked
 status:
     packwiz refresh
-    @ls mods/*.pw.toml 2>/dev/null | wc -l | xargs echo "tracked mods:"
+    Write-Host "tracked mods: $((Get-ChildItem mods/*.pw.toml).Count)"
+
+serve:
+    packwiz serve
