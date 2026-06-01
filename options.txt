@@ -1,7 +1,7 @@
 version:4790
 ao:true
 biomeBlendRadius:7
-chunkSectionFadeInTime:0.75
+chunkSectionFadeInTime:0.0
 cutoutLeaves:true
 enableVsync:false
 entityDistanceScaling:5.0
@@ -28,7 +28,7 @@ mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"true"
+renderClouds:"false"
 cloudRange:64
 renderDistance:12
 simulationDistance:16
@@ -64,8 +64,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","file/Stay_True_1.21.zip","file/FreshAnimations_v1.10.5.zip","file/FA+All_Extensions-v1.9.1.zip"]
+incompatibleResourcePacks:["file/Stay_True_1.21.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -172,8 +172,8 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.40233728269867547
-soundCategory_music:1.0
+soundCategory_master:0.4014900662251656
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

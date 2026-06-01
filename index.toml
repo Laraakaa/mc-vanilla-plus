@@ -6,7 +6,11 @@ hash = "6403a5bd3eb829e5240fa06504f52ac739400b118746047e92cda0c5dc7814aa"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "2a5615d924dec454e35080ea7e83ffcfa05faaac31a53c0dbad2a8f47f60aa04"
+hash = "6c93f9c06cfb678d39327e9c1ec55aa7821e184926ae77769a5ea0357b426cd6"
+
+[[files]]
+file = "config/iris.properties"
+hash = "8c346aec2ce95817c86858d343e78866dc032e4a93025d1f082df8367572bfe1"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -17,8 +21,43 @@ file = "config/sodium-options.json"
 hash = "b8c4dbc7853c846cc7bcd441baaa02d60c7ab16ed4c5814107a62b7555c25f66"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "2d3b1944bc7916b8e57460d7eb342c73566e15393ddb6483c71f2336bab6200c"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "82f8e930d470d72330d18b6609e233f5c61a37866cec7c93f17d9bc6006e7565"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "c7e5c4ae7f25c1954a2327f5dd1edece3ba9dc07039d39bc9beb435e4a18bf82"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "adbe039e36d71ac5e8986288240d9a7e13720a108a70ffb0bb989d7a9a7ca30b"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "6c2f5d0b6229451159ab5d44c1b38954dc0236b94388b6e0ac174b5475cd2135"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "93be568ffd5908e1991054d273d0d008204afe55a53714bff471719d32dcbb5d"
+metafile = true
+
+[[files]]
+file = "mods/essential.pw.toml"
+hash = "8deab61257dcf369bdde6e2fa1c04139c9a80b61e0b4f9ac6032a6e90479259d"
 metafile = true
 
 [[files]]
@@ -27,13 +66,33 @@ hash = "1774ae01ebdad5b5769a410c071b5efbcb5ae9a71fbc32509d3997819f8b8d5d"
 metafile = true
 
 [[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "aa33cb41c810c66e39c6fcea071fca1c6f8a6eaf63ecbea473f81a2708c6641a"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "fc6ed047d2ef8a289ff2f85e1852d403e36260dd0ef37fac7266071288e06b70"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "d9f54bcf75d036c25ebe636abb7ffa7c2d21c3601fec13b0fa2cc8916120affa"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "bc13079f8f323741d97ee8eedd24b2944b1caa6ef2a2fd4a6162cba270e9f866"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "73838bd3377c35a6da4b6959dc77e6fa5aecbfc2922ca45c6a35f0febf8b7ae2"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "0e5168a4f2934ca0aaaeab725b5b0f1dd3207e9f606eedf30c564888bd330377"
 metafile = true
 
 [[files]]
@@ -52,8 +111,18 @@ hash = "4979560f947600c6a5d8e2d77cfa191baa9f79b36ae001711325aa102fb4dce1"
 metafile = true
 
 [[files]]
+file = "mods/noisiumforked.pw.toml"
+hash = "4377f240a98f7e59b4d5f1c09a394a2fb4130a59d83196745aeb08d96ada9535"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "b052d07eb086aa31e580e7d1486ed06cca76842ebea9e149c7bda7e98d35f456"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "5df4a212f7297545920f3e69aa8a9b2e9df8dfad2e35c5a5fb1485c5a2b0ba84"
 metafile = true
 
 [[files]]
@@ -67,6 +136,11 @@ hash = "d6a9a5fd63b74032e640821e5624c20596ccf9566af76813aa1972b162781da4"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "7560a0a8d7737d587fc2e3484e5573a743988549c2ce5f24746f8ea816cad5c9"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "9319c3c28fcf1d824c7ac999851cdbcf3be9e9a1fe289e854cbebc15dc63b899"
 metafile = true
@@ -77,6 +151,40 @@ hash = "5d451fb0bab301ca1f7f99ae698e13b8c6827dda54704204cfe0e63b420e9cfa"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "f69228cef8adb3becb463aa2ed728998487fc947d79a3d0e47b8c47c964ce589"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "86237b7e69781303d17f0359da7e79821e1cd86472ebee91b3c0bd8d1abb467e"
+metafile = true
+
+[[files]]
 file = "options.txt"
-hash = "0d3d71ab7af140dd22d19faf124e7f93330b0082cea83ee436a833f16c5169de"
+hash = "96c56ff3a3400a533143b2b84f43ed67e9a4401354acfba811ce2200f0734b7f"
 preserve = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "349ae25c50b11d4df553eb394d97367c550b06d14eb6bb717a99e2fa3e26867e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "213428b7676adfaa1c59fcfe93e6e7f3d0257e236f32a5a245eb0fc966e1b218"
+metafile = true
+
+[[files]]
+file = "resourcepacks/stay-true.pw.toml"
+hash = "e53a1e480f2a8051cc6581a0d7323fb3b31c317562caa12c37eab9e952cc9300"
+metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
+hash = "9da2fceeb2090b6c99e222bbdf9bf127135f37e439d34dcff8b15ea156f86e01"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
+metafile = true

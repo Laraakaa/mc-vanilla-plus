@@ -117,7 +117,7 @@ upsampleLowerDetailLodsToFillHoles = false
 [common.multiThreading]
 #
 # How many threads should be used by Distant Horizons?
-numberOfThreads = 12
+numberOfThreads = 24
 #
 # A value between 1.0 and 0.0 that represents the percentage
 # of time each thread can run before going idle.
@@ -239,7 +239,7 @@ distantGeneratorMode = "FEATURES"
 # CHAT
 # LOG
 # DISABLED
-showGenerationProgress = "DISABLED"
+showGenerationProgress = "OVERLAY"
 #
 # The max radius in chunks around the central point where world generation is allowed.
 # If this value is set to 0, generation bounds are disabled and the render distance will be used.
