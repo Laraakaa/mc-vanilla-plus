@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/build.yaml"
+hash = "854c454b245c0fa1cadadbfe879285c73e6f28c85f10bbb4b0955c9ee4d69faf"
+
+[[files]]
 file = "Justfile"
 hash = "6403a5bd3eb829e5240fa06504f52ac739400b118746047e92cda0c5dc7814aa"
 
@@ -108,6 +112,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "4979560f947600c6a5d8e2d77cfa191baa9f79b36ae001711325aa102fb4dce1"
+metafile = true
+
+[[files]]
+file = "mods/mrcrayfishs-furniture-mod-tools-refurbished.pw.toml"
+hash = "364a8f72dc2f870141416c8ac466c4456ac1126093ac050f028a5b2d84ba1236"
 metafile = true
 
 [[files]]
